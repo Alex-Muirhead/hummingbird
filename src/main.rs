@@ -22,9 +22,9 @@ struct StructuredGrid {
     vertices: Vec<Vector3<f32>>,
 }
 
-fn read_grid(file: File) -> StructuredGrid {
-    let shape = (0, 0, 0);
-}
+// fn read_grid(file: File) -> StructuredGrid {
+//     let shape = (0, 0, 0);
+// }
 
 fn main() -> io::Result<()> {
     let args = Args::parse();
