@@ -9,3 +9,4 @@ clap = { version = "4.5.35", features = ["derive"] }
 flate2 = "1.1.1"
 json = "0.12.4"
 nalgebra = "0.33.2"
+nom = { version = "8.0.0", features = ["alloc"] }
